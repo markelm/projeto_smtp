@@ -22,7 +22,7 @@ msg["Subject"] = "Quando voce vem pra ca?"
 
 msg.attach(MIMEText(body, 'plain'))
 
-filename = 'test.txt'
+filename = 'ANEXO_Cliente1.txt'
 attachment = open(filename, 'rb')
 part = MIMEBase('application', 'octet-stream')
 part.set_payload((attachment).read())
